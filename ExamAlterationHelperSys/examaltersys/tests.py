@@ -159,4 +159,4 @@ class TestModels(TestCase):
             exam=self.exam1, course=self.course1, room=self.room1)
         with self.assertRaises(ValidationError):
             t4.clean()
-#this is examalter
+#this is examaltersys
