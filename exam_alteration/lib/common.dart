@@ -11,59 +11,6 @@ import 'package:exam_alteration/graphql/graphqlqueries.dart';
 import 'package:exam_alteration/graphql/authentication/auth_graph.dart';
 import 'package:exam_alteration/graphql/authentication/token.dart';
 
-// class GenerateCSV extends StatelessWidget {
-//   final List<dynamic> facdetailslist;
-//   void getCsv() async {
-//     //create an element rows of type list of list. All the above data set are stored in associate list
-// //Let associate be a model class with attributes name,gender and age and associateList be a list of associate model class.
-
-//     List<List<dynamic>> rows = List<List<dynamic>>();
-//     for (int i = 0; i < associateList.length; i++) {
-// //row refer to each column of a row in csv file and rows refer to each row in a file
-//       List<dynamic> row = List();
-//       row.add(associateList[i].name);
-//       row.add(associateList[i].gender);
-//       row.add(associateList[i].age);
-//       rows.add(row);
-//     }
-
-//     await SimplePermissions.requestPermission(Permission.WriteExternalStorage);
-//     bool checkPermission = await SimplePermissions.checkPermission(
-//         Permission.WriteExternalStorage);
-//     if (checkPermission) {
-// //store file in documents folder
-
-//       String dir =
-//           (await getExternalStorageDirectory()).absolute.path + "/documents";
-//       file = "$dir";
-//       print(LOGTAG + " FILE " + file);
-//       File f = new File(file + "filename.csv");
-
-// // convert rows to String and write as csv file
-
-//       String csv = const ListToCsvConverter().convert(rows);
-//       f.writeAsString(csv);
-//     }
-//   }
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return AppBar(
-//       backgroundColor: Colors.transparent,
-//       leading: IconButton(
-//         icon: Icon(
-//           Icons.arrow_back_ios_rounded,
-//         ),
-//         tooltip: 'Go Back',
-//         iconSize: 30,
-//         onPressed: () {
-//           Navigator.of(context).maybePop();
-//         },
-//       ),
-//     );
-//   }
-// }
-
 class MainTopBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Size get preferredSize => const Size.fromHeight(50);
@@ -85,64 +32,6 @@ class MainTopBar extends StatelessWidget implements PreferredSizeWidget {
   }
 }
 
-// class TopBar extends StatelessWidget implements PreferredSizeWidget {
-//   TopBar(this.firstName, this.maincontent, this.phonenumber, this.email);
-//   final firstName;
-//   final email;
-//   final phonenumber;
-//   final maincontent;
-//   @override
-//   Size get preferredSize => const Size.fromHeight(100);
-//   @override
-//   Widget build(BuildContext context) {
-//     return AppBar(
-//       leading: IconButton(
-//         icon: Icon(
-//           Icons.arrow_back_ios_rounded,
-//         ),
-//         tooltip: 'Go Back',
-//         iconSize: 3,
-//         onPressed: () {
-//           Navigator.of(context).maybePop();
-//         },
-//       ),
-//       title: IconButton(
-//         icon: Icon(
-//           Icons.block_outlined,
-//         ),
-//         iconSize: 30,
-//         onPressed: () {
-//           Navigator.of(context).pushAndRemoveUntil(
-//               MaterialPageRoute(builder: (context) => maincontent),
-//               (Route<dynamic> route) => false);
-//         },
-//       ),
-//       titleSpacing: -10.0,
-//       actions: <Widget>[
-//         IconButton(
-//           icon: const Icon(Icons.account_circle_rounded),
-//           iconSize: 30,
-//           tooltip: 'Profile Details',
-//           onPressed: () {
-//             profilePane(context, firstName, email, phonenumber);
-//           },
-//         ),
-//         IconButton(
-//           icon: const Icon(Icons.notifications_rounded),
-//           iconSize: 30,
-//           tooltip: 'Notifications',
-//           onPressed: () {
-//             ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-//               content: Text('Notification bar is pressed'),
-//               duration: const Duration(milliseconds: 1200),
-//             ));
-//           },
-//         ),
-//       ],
-//       iconTheme: IconThemeData(color: Colors.green),
-//     );
-//   }
-// }
 class TopBar extends StatelessWidget implements PreferredSizeWidget {
   TopBar(this.firstName, this.maincontent, this.email, this.phonenumber);
   final firstName;
