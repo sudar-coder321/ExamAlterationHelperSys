@@ -19,6 +19,9 @@ itoo = ito.replace(tzinfo=None)
 
 class TestModels(TestCase):
     def setUp(self):
+        print(insidetestmodels);
+        self.user1 = User.objects.create(username='Ravi', password='yotta321')
+        self.userf1 = User_T.objects.create(user=self.user1, type='faculty')
         self.user1 = User.objects.create(username='Ravi', password='yotta321')
         self.userf1 = User_T.objects.create(user=self.user1, type='faculty')
 
@@ -37,6 +40,10 @@ class TestModels(TestCase):
         self.user5 = User.objects.create(
             username='Mohan', password='kentucky89')
         self.usera3 = User_T.objects.create(user=self.user5, type='admin')
+        self.user6 = User.objects.create(
+            username='jigar', password='supersecret')
+        self.userf3 = User_T.objects.create(user=self.user6, type='faculty')
+        print("positivetestcaseforfaculty:valid")
 
         self.course1 = Course.objects.create(
             Course_ID='15CSE123', Course_name="maths")
