@@ -58,7 +58,7 @@ class TestModels(TestCase):
         self.user7 = User.objects.create(
             username='jigar', password='super5secret') #given wrong password       
         self.userf4 = User_T.objects.create(user=self.user6, type='faculty')
-        print("negative test case for adding faculty")
+        print("negative(non boundary) test case for adding faculty")
         
         self.course1 = Course.objects.create(
             Course_ID='15CSE123', Course_name="maths")
