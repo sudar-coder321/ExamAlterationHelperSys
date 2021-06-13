@@ -1,0 +1,30 @@
+name: exam_alteration
+description: A new Flutter web-application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  editable: ^2.0.0
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  flutter_appauth: ^1.0.0+1
+  flutter_secure_storage: ^4.2.0
+  google_fonts: ^2.1.0
+  url_launcher: ^6.0.6
+  graphql_flutter: ^5.0.0
+  provider: ^5.0.0
+  cupertino_icons: ^1.0.3
+  painter: ^2.0.0
+  sqflite: ^2.0.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
