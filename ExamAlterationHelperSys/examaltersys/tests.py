@@ -19,11 +19,14 @@ itoo = ito.replace(tzinfo=None)
 
 class TestModels(TestCase):
     def setUp(self):
+        Print("Inside test models")
         self.user1 = User.objects.create(username='Ravi', password='yotta321')
         self.userf1 = User_T.objects.create(user=self.user1, type='faculty')
 
         self.user2 = User.objects.create(username='Kiran', password='beta453')
         self.userf2 = User_T.objects.create(user=self.user2, type='faculty')
+        
+
 
         self.user3 = User.objects.create(
             username='Rajesh', password='bytoxe567')
@@ -41,7 +44,11 @@ class TestModels(TestCase):
         self.course1 = Course.objects.create(
             Course_ID='15CSE123', Course_name="maths")
         self.course2 = Course.objects.create(
-            Course_ID='15CSE102', Course_name="physics")
+            Course_ID='15CSE102', Course_name="physics")   
+            print(self.course2.Course_name +"is a positive boundary test case for creating course")
+
+        self.course3 = Course.objects.create(
+            Course_ID='15CSE311', Course_name="Compiler Design",Description="This is compiler design course",Credits=4)
         # self.clas1=Clas.objects.create(class_name="3C")
         self.room1 = Room.objects.create(
             Room_ID='A-123', Block='Academic Block-2', capacity=120)
