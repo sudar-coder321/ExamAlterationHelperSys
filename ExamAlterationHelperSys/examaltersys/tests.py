@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 from examaltersys.models import Exam, User_T, ExamAllocation, Room, AssignDuty, TakeDuty, Course, Notification, RoomAllocation
 from dateutil import tz
 from datetime import datetime
-
+print('pyunitmodel')
 utc_tz = tz.gettz('UTC')
 india_tz = tz.gettz('Asia/Kolkata')
 date_string = "2018-12-24T02:35:16-08:00"
