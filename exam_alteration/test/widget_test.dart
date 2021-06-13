@@ -21,6 +21,8 @@ void main() {
 
     // Tap the '+' icon and trigger a frame.
     await tester.tap(find.byIcon(Icons.add));
+    print(findsOneWidget);
+    print(findsNothing);
     await tester.pump();
 
     // Verify that our counter has incremented.
