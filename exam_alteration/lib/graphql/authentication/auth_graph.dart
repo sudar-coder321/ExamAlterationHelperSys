@@ -24,9 +24,7 @@ extension Graph on GraphQLClient {
     return this.query(QueryOptions(
       document: gql(readCharacter),
       fetchPolicy: FetchPolicy.networkOnly,
-      // ignore all GraphQL errors.
       errorPolicy: ErrorPolicy.ignore,
-      // ignore cache data.
       cacheRereadPolicy: CacheRereadPolicy.ignoreAll,
     ));
   }
