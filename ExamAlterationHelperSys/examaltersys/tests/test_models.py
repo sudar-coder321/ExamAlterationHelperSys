@@ -30,8 +30,11 @@ class TestModels(TestCase):
 
         self.user3 = User.objects.create(
             username='Rajesh', password='bytoxe567')
+        
         self.usere1 = User_T.objects.create(
             user=self.user3, type='examdutyofficer')
+        print("boundary negative testcase for exam duty officer:invalid")
+        
 
         self.user4 = User.objects.create(username='Kanna', password='geton786')
         self.usere2 = User_T.objects.create(
@@ -40,10 +43,10 @@ class TestModels(TestCase):
         self.user5 = User.objects.create(
             username='Mohan', password='kentucky89')
         self.usera3 = User_T.objects.create(user=self.user5, type='admin')
+                print("positive boundary testcaseforfaculty:valid")
         self.user6 = User.objects.create(
             username='jigar', password='supersecret')
         self.userf3 = User_T.objects.create(user=self.user6, type='faculty')
-        print("positivetestcaseforfaculty:valid")
 
         self.course1 = Course.objects.create(
             Course_ID='15CSE123', Course_name="maths")
@@ -62,6 +65,7 @@ class TestModels(TestCase):
 
         self.room_allocation1 = RoomAllocation.objects.create(
             room=self.room1, faculty=self.userf2)
+        print("testcase for room allocation")
         self.room_allocation2 = RoomAllocation.objects.create(
             room=self.room2, faculty=self.userf1)
 
