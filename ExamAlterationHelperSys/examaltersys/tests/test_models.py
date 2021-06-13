@@ -150,10 +150,3 @@ class TestModels(TestCase):
     def test_room_already_allocated_to_another_exam_and_course(self):
         with self.assertRaises(IntegrityError):
             ExamAllocation.objects.create(exam = self.exam1,room=self.room1,course=self.course2)
-
-
-    # def test_room_is_alloted_to_a_invalid_exam_and_course(self):
-    #     t4 = ExamAllocation.objects.create(
-    #         exam=self.exam1, course=self.course1, room=self.room1)
-    #     with self.assertRaises(ValidationError):
-    #         t4.clean()
