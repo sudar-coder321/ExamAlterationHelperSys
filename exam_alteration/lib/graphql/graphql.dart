@@ -1,7 +1,6 @@
 import 'package:graphql/client.dart';
 
 class GraphQL {
-  //http://65.0.80.8
   final baseURL = 'http://<your local host URL>/graphql';
 
   GraphQLClient getClient() => GraphQLClient(
