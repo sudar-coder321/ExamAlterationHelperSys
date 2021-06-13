@@ -45,10 +45,10 @@ class TestModels(TestCase):
             Course_ID='15CSE123', Course_name="maths")
         self.course2 = Course.objects.create(
             Course_ID='15CSE102', Course_name="physics")   
-            print(self.course2.Course_name +"is a positive boundary test case for creating course")
-
+            print(self.course2.Course_name +"is a negative boundary test case for creating course")
         self.course3 = Course.objects.create(
             Course_ID='15CSE311', Course_name="Compiler Design",Description="This is compiler design course",Credits=4)
+            print(self.course3.Course_name+"is a positive boundary test case for creating course")
         # self.clas1=Clas.objects.create(class_name="3C")
         self.room1 = Room.objects.create(
             Room_ID='A-123', Block='Academic Block-2', capacity=120)
