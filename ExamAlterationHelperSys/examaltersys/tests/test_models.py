@@ -30,6 +30,9 @@ class TestModels(TestCase):
         self.user2 = User.objects.create(username='Kiran', password='beta453')
         self.userf2 = User_T.objects.create(user=self.user2, type='faculty')
 
+        
+        
+        
         self.user3 = User.objects.create(
             username='Rajesh', password='bytoxe567')
         
@@ -37,21 +40,29 @@ class TestModels(TestCase):
             user=self.user3, type='examdutyofficer')
         print("boundary negative testcase for exam duty officer:invalid")
         
-
+        
         self.user4 = User.objects.create(username='Kanna', password='geton786')
         self.usere2 = User_T.objects.create(
             user=self.user4, type='examdutyofficer')
 
+        
+        
         self.user5 = User.objects.create(
             username='Mohan', password='kentucky89')
         self.usera3 = User_T.objects.create(user=self.user5, type='admin')
                 print("positive boundary testcaseforfaculty:valid")
         self.user6 = User.objects.create(
-            username='jigar', password='supersecret')
+            username='jigar', password='supersecret')        
         self.userf3 = User_T.objects.create(user=self.user6, type='faculty')
 
+        self.user7 = User.objects.create(
+            username='jigar', password='super5secret') #given wrong password       
+        self.userf4 = User_T.objects.create(user=self.user6, type='faculty')
+        print("negative test case for adding faculty")
+        
         self.course1 = Course.objects.create(
             Course_ID='15CSE123', Course_name="maths")
+        print(self.course1.Course_name+"is a negative bounadary test case for adding course")
         self.course2 = Course.objects.create(
             Course_ID='15CSE102', Course_name="physics")
         # self.clas1=Clas.objects.create(class_name="3C")
