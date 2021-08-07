@@ -112,6 +112,8 @@ This is a system designed to help alternate exam faculty slots with an alternate
 
 ##### **Positive Cases**
 
+###### Admin Page
+
 ![image](https://user-images.githubusercontent.com/60535124/128609582-3385af20-e146-4b17-985f-79c132284206.png)
 
 ![image](https://user-images.githubusercontent.com/60535124/128609597-fa7ebd69-b411-48da-9dbc-62849e71b561.png)
@@ -119,6 +121,13 @@ This is a system designed to help alternate exam faculty slots with an alternate
 ![image](https://user-images.githubusercontent.com/60535124/128609625-d636d065-3e99-43e8-8c42-10edac69b883.png)
 
 ![image](https://user-images.githubusercontent.com/60535124/128609637-058e36e0-cf83-46f8-86c1-44803517942a.png)
+
+
+###### Faculty and Exam Duty Officer Page
+
+![image](https://user-images.githubusercontent.com/60535124/128610021-7f55045f-1106-4c8f-84c4-cc71993c0546.png)
+
+![image](https://user-images.githubusercontent.com/60535124/128610131-2b676bc9-c770-4655-9ee2-adb3c002597c.png)
 
 
 ##### **Negative Cases**
