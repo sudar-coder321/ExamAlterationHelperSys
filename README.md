@@ -102,11 +102,11 @@ This is a system designed to help alternate exam faculty slots with an alternate
 
 ![image](https://user-images.githubusercontent.com/60535124/128607437-6ea6aa52-f3a0-4b72-9729-acd6150adbd3.png)
 
-###### Important Note 
+##### Important Note 
 
-####### Ok - Corresponds to Positive **Test** cases :relaxed:
+###### Ok - Corresponds to Positive **Test** cases :relaxed:
 
-####### FAIL - Corresponds to Negative **Test** cases :confused:
+###### FAIL - Corresponds to Negative **Test** cases :confused:
 
 
 
