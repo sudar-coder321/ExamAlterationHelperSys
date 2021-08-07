@@ -98,9 +98,20 @@ This is a system designed to help alternate exam faculty slots with an alternate
 
 ### **(iii) Testing**
 
-#### Django testing Module
+#### **Django testing Module**
 
 ![image](https://user-images.githubusercontent.com/60535124/128607437-6ea6aa52-f3a0-4b72-9729-acd6150adbd3.png)
+
+#### **UI Testing** 
+
+##### **Positive Cases**
+
+![image](https://user-images.githubusercontent.com/60535124/128607659-2f7bc49e-5f59-488f-be62-f19224586c8f.png)
+
+##### **Negative Cases**
+
+![image](https://user-images.githubusercontent.com/60535124/128607614-21667b32-256f-43eb-8a9d-ed834aedd8d6.png)
+
 
 ##### Important Note 
 
