@@ -6,7 +6,7 @@ This is a system designed to help alternate exam faculty slots with an alternate
 
 #### (a) Development *(Coding)* Tools Aka Frameworks 
 
- - Flutter *(based on Dart Programming Language) for Frontend and UI
+ - Flutter *(based on Dart Programming Language)* for Frontend and UI
  - Figma (UI/UX)
  - Postman
  - GraphQL (Middleware UI Client)
