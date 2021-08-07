@@ -4,7 +4,7 @@ This is a system designed to help alternate exam faculty slots with an alternate
 
 ## **Tools Used**  
 
-#### (a) Development *(Coding) Tools Aka Frameworks 
+#### (a) Development *(Coding)* Tools Aka Frameworks 
 
  - Flutter *(based on Dart Programming Language) for Frontend and UI
  - Figma (UI/UX)
@@ -14,9 +14,9 @@ This is a system designed to help alternate exam faculty slots with an alternate
  - PostGRESQL DB *(Production)
  - SQLite DB *(local and serverless)
  
-#### (b) Deployment *(DevOPS) Tools
+#### (b) Deployment *(DevOPS)* Tools
 
- - AWS Elastic Compute Cloud Service*(EC2) 
+ - AWS Elastic Compute Cloud Service *(EC2)* 
  - NGINX server for Flutter
  - Python SCP server for Djangp
  - Git Bash/ AWS CLI
@@ -32,10 +32,10 @@ This is a system designed to help alternate exam faculty slots with an alternate
 #### (d) Analytics and SevOPS Tools - 
 
  - Flutter Analyze
- - Dart Dev Tools *(Also for Layout and Performance testing)
- - SonarQube *(Static Code Analysis)
- - Jenkins *(CI/CD)
- - JIRA *(Project Profile Tracking)
+ - Dart Dev Tools *(Also for Layout and Performance testing)*
+ - SonarQube *(Static Code Analysis)*
+ - Jenkins *(CI/CD)*
+ - JIRA *(Project Profile Tracking)*
  
  #### (e) Containerzation and API Tools - 
   - Docker HUB
@@ -87,6 +87,26 @@ This is a system designed to help alternate exam faculty slots with an alternate
 ![image](https://user-images.githubusercontent.com/60535124/128607229-134a9be3-2ea1-4cf8-87d0-2b901523c809.png)
 
 
+### **(ii) Static Code Analysis**
+
+![image](https://user-images.githubusercontent.com/60535124/128607347-a395af45-e653-4087-92c8-e841d599dda9.png)
+
+![image](https://user-images.githubusercontent.com/60535124/128607368-446845be-7b93-43d4-8456-1c4f702be29b.png)
+
+#### Flutter Analyze - 
+![image](https://user-images.githubusercontent.com/60535124/128607395-8e92ebd0-128e-408a-afcc-1cc45e0678c0.png)
+
+### **(iii) Testing**
+
+#### Django testing Module
+
+![image](https://user-images.githubusercontent.com/60535124/128607437-6ea6aa52-f3a0-4b72-9729-acd6150adbd3.png)
+
+###### Important Note 
+
+####### Ok - Corresponds to Positive **Test** cases :relaxed:
+
+####### FAIL - Corresponds to Negative **Test** cases :confused:
 
 
 
