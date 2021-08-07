@@ -106,18 +106,59 @@ This is a system designed to help alternate exam faculty slots with an alternate
 
 ##### **Positive Cases**
 
-![image](https://user-images.githubusercontent.com/60535124/128607659-2f7bc49e-5f59-488f-be62-f19224586c8f.png)
+![image](https://user-images.githubusercontent.com/60535124/128609582-3385af20-e146-4b17-985f-79c132284206.png)
+
+![image](https://user-images.githubusercontent.com/60535124/128609597-fa7ebd69-b411-48da-9dbc-62849e71b561.png)
+
+![image](https://user-images.githubusercontent.com/60535124/128609625-d636d065-3e99-43e8-8c42-10edac69b883.png)
+
+![image](https://user-images.githubusercontent.com/60535124/128609637-058e36e0-cf83-46f8-86c1-44803517942a.png)
+
 
 ##### **Negative Cases**
 
 ![image](https://user-images.githubusercontent.com/60535124/128607614-21667b32-256f-43eb-8a9d-ed834aedd8d6.png)
 
+![image](https://user-images.githubusercontent.com/60535124/128607659-2f7bc49e-5f59-488f-be62-f19224586c8f.png)
 
-##### Important Note 
+![image](https://user-images.githubusercontent.com/60535124/128609505-75de93af-61c9-474d-8a5f-f6bbd93d0dbe.png)
 
-###### Ok - Corresponds to Positive **Test** cases :relaxed:
 
-###### FAIL - Corresponds to Negative **Test** cases :confused:
+#####  **Layout Inspection(Usability)**
+
+![image](https://user-images.githubusercontent.com/60535124/128609711-159bf60c-18b7-424d-8f11-a7995974061b.png)
+
+![image](https://user-images.githubusercontent.com/60535124/128609717-6c09eee9-8dbd-459c-a449-b47822b35141.png)
+
+![image](https://user-images.githubusercontent.com/60535124/128609726-2fbb9552-afd6-499e-9af0-74dcd5da37c2.png)
+
+##### **Memory Testing**
+
+![image](https://user-images.githubusercontent.com/60535124/128609739-28a764bd-199d-486e-b91a-e71f0097e959.png)
+
+![image](https://user-images.githubusercontent.com/60535124/128609748-73ee1bdc-4a2b-4ff9-b449-910eebee4027.png)
+
+![image](https://user-images.githubusercontent.com/60535124/128609759-a0e581eb-9b93-45ad-a2c3-3b7f95e9e948.png)
+
+##### **Performance Testing**
+
+![image](https://user-images.githubusercontent.com/60535124/128609781-a5265c5c-ef15-462c-a201-3381581552a0.png)
+
+![image](https://user-images.githubusercontent.com/60535124/128609793-93f15918-93dd-42fd-871c-20610f13c968.png)
+
+![image](https://user-images.githubusercontent.com/60535124/128609805-a20d6bfd-7f9b-4486-9318-35f5bc61deba.png)
+
+
+
+
+
+
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Important Note 
+
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ok - Corresponds to Positive **Test** cases :relaxed:
+
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAIL - Corresponds to Negative **Test** cases :confused:
 
 
 
