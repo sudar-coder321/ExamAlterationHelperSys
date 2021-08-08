@@ -10,7 +10,7 @@ This is a system designed to help alternate exam faculty slots with an alternate
  - Figma (UI/UX)
  - Postman
  - GraphQL (Middleware UI Client)
- - Django *(based on Python Programming Language) for Backend and DB Management
+ - Django *(based on Python Programming Language)* for Backend and DB Management
  - PostGRESQL DB *(Production)
  - SQLite DB *(local and serverless)
  
