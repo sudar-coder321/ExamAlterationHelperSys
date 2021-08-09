@@ -7,12 +7,12 @@ This is a system designed to help alternate exam faculty slots with an alternate
 #### (a) Development *(Coding)* Tools Aka Frameworks 
 
  - Flutter *(based on Dart Programming Language)* for Frontend and UI
- - Figma (UI/UX)
+ - Figma *(UI/UX)*
  - Postman
- - GraphQL (Middleware UI Client)
+ - GraphQL *(Middleware UI Client)*
  - Django *(based on Python Programming Language)* for Backend and DB Management
- - PostGRESQL DB *(Production)
- - SQLite DB *(local and serverless)
+ - PostGRESQL DB *(Production)*
+ - SQLite DB *(local and serverless)*
  
 #### (b) Deployment *(DevOPS)* Tools
 
@@ -24,8 +24,8 @@ This is a system designed to help alternate exam faculty slots with an alternate
 
 #### (c) Testing Tools - 
  
-  - Selenium (Flutter and Django UI testing) 
-  - PyUnit (Django Unit Testing)
+  - Selenium *(Flutter and Django UI testing)* 
+  - PyUnit *(Django Unit Testing)*
   - Flutter test module
   - Django tests module
 
